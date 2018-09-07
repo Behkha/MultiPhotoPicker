@@ -478,7 +478,7 @@ public class PickImageActivity extends AppCompatActivity implements  OnClickList
             }
             else
             {
-                Toast.makeText(this, "Please select at lease "+this.limitImageMin+" images", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "لطفا حداقل  "+this.limitImageMin+" عکس انتخاب کنید ", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -688,7 +688,7 @@ public class PickImageActivity extends AppCompatActivity implements  OnClickList
         if (this.listItemSelect.size() < this.limitImageMax) {
             addItemSelect(item);
         } else {
-            Toast.makeText(this, "Limit " + this.limitImageMax + " images", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "حداکثر " + this.limitImageMax + " عکس میتوانید انتخاب کنید ", Toast.LENGTH_SHORT).show();
         }
     }
 
